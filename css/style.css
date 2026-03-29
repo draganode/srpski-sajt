@@ -1,1 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background: #0f0f0f;
+  color: #eee;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1 rem;
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+#search {
+  padding: 12px 20px;
+  width: 90%;
+  max-width: 500px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.1rem;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+#song-list {
+  list-style: none;
+}
+
+#song-list li {
+  background: #1f1f1f;
+  margin: 10px 0;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  transition: all 0.3s;
+}
+
+#song-list li:hover {
+  background: #2a2a2a;
+  transform: translateX(10px);
+}
+
+#song-list a {
+  color: #60a5fa;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
